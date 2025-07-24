@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Mumo Symbols")(type "KiCad")(uri "${KIPRJMOD}/Mumo Data/Mumo Symbols.kicad_sym")(options "")(descr ""))
+)

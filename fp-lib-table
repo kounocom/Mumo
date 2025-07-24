@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Mumo Footprints")(type "KiCad")(uri "${KIPRJMOD}/Mumo Data/Mumo Footprints.pretty")(options "")(descr ""))
+)

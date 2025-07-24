@@ -1,0 +1,248 @@
+(footprint "QMC6309"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.4 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "65268234-e165-4f71-8bd8-43baffac0b53")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "QMC6309"
+		(at 0 1.4 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ebfe40d4-b359-4151-a2d8-0c5e08b46073")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65e6340e-bfbf-4855-99ea-d6fe9b0f5a67")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1e90ac11-2945-4171-a8b1-ef1489b6310f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "C9900160047"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d458f96-7f29-4c54-8786-c39beeedd9dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.5 -0.5)
+		(end 0.5 -0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4eebbd6f-4692-4888-972b-d98823172b1d")
+	)
+	(fp_line
+		(start -0.5 0.5)
+		(end -0.5 -0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "347ad358-e31d-4296-8354-22238cab61a1")
+	)
+	(fp_line
+		(start 0.25 0.5)
+		(end -0.5 0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b83f2af2-3306-4b1e-b8e2-90b4fc47e098")
+	)
+	(fp_line
+		(start 0.5 -0.5)
+		(end 0.5 0.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e493a90a-c23c-487c-b0a7-c5dc28307755")
+	)
+	(fp_line
+		(start 0.5 0.25)
+		(end 0.25 0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "486f5c67-1df6-44f8-97b7-e69d6d85aa53")
+	)
+	(fp_line
+		(start -0.6 -0.6)
+		(end 0.6 -0.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "ea408b08-96c7-41cc-b51f-2d84b65a10e7")
+	)
+	(fp_line
+		(start -0.6 0.6)
+		(end -0.6 -0.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "80f948d4-342f-48c5-a307-726084fb7d53")
+	)
+	(fp_line
+		(start 0.6 -0.6)
+		(end 0.6 0.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "b9c2d2d4-80ce-478d-b170-7b6470f7d96a")
+	)
+	(fp_line
+		(start 0.6 0.6)
+		(end -0.6 0.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "fb3d9e73-8102-44e4-92a7-e686631e2597")
+	)
+	(fp_rect
+		(start -0.39 -0.39)
+		(end 0.39 0.39)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "12456d49-8f93-4dcf-9b9e-07ee136e27bd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "26c40615-83ad-415d-a54e-e2ebf6d332ae")
+		(effects
+			(font
+				(size 0.1 0.1)
+				(thickness 0.025)
+			)
+		)
+	)
+	(pad "A1" smd circle
+		(at 0.2 0.2)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d5889e4d-8abd-4233-a514-b5b169c2394f")
+	)
+	(pad "A2" smd circle
+		(at -0.2 0.2)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "47bb2594-837f-420d-8da9-f00026dae864")
+	)
+	(pad "B1" smd circle
+		(at 0.2 -0.2)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7f968ef6-8d8e-44ff-9418-0e158121fca9")
+	)
+	(pad "B2" smd circle
+		(at -0.2 -0.2)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a7d3a5d0-9f7d-498d-9e2e-799ba7fe839c")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "9ea6d686-f037-4676-a943-0326340ef067")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -0.55 -0.55) (xy 0.55 -0.55) (xy 0.55 0.55) (xy -0.55 0.55)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Mumo Data/Mumo Models/IST8306.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
