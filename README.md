@@ -2,9 +2,7 @@
 
 A compact 13×18mm IMU module featuring the TDK InvenSense ICM-45686 6-axis IMU with integrated 32.768kHz clock and QST QMC6309 3-axis magnetometer.
 
-![PCB Image](http://cdn.kouno.xyz/YbeQcjUa.jpg)
-
-> **Note:** This module is functionally identical to the ICM-45686+QMC6309 previously sold on [KOUNOLAB](https://store.kouno.xyz), and will soon be available from [SlimeVR](https://shop.slimevr.dev).
+![PCB Image](http://cdn.kouno.xyz/sppRNCOt.png)
 
 ## Features
 
