@@ -58,29 +58,6 @@
 	(zone_connect 1)
 	(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
 	(net_tie_pad_groups "1, 2")
-	(fp_poly
-		(pts
-			(xy -0.25 -0.075) (xy 0.25 -0.075) (xy 0.25 0.075) (xy -0.25 0.075)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Cu")
-		(uuid "ce5f257f-4644-470f-96d7-7d53c8011723")
-	)
-	(fp_rect
-		(start -0.15 -0.075)
-		(end 0.15 0.075)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Mask")
-		(uuid "f9b24635-3466-431a-a5b7-440f4409e0b7")
-	)
 	(fp_line
 		(start -1.5 -0.8)
 		(end -1.5 0.8)
@@ -122,25 +99,25 @@
 		(uuid "5971bd7d-2f6e-4f79-ac11-9b276572db39")
 	)
 	(pad "1" smd oval
-		(at -0.65 0)
+		(at -0.575 0)
 		(size 1 1)
 		(layers "F.Cu" "F.Mask")
 		(uuid "d29a387a-d428-4872-b87b-f99fd2afe80c")
 	)
 	(pad "1" smd rect
-		(at -0.4 0)
+		(at -0.325 0)
 		(size 0.5 1)
 		(layers "F.Cu" "F.Mask")
 		(uuid "163fb40e-0722-4149-af8b-cf72a7e9ef13")
 	)
 	(pad "2" smd rect
-		(at 0.4 0)
+		(at 0.325 0)
 		(size 0.5 1)
 		(layers "F.Cu" "F.Mask")
 		(uuid "7642bda4-71cb-4521-85b7-d2adf7ac9f10")
 	)
 	(pad "2" smd oval
-		(at 0.65 0)
+		(at 0.575 0)
 		(size 1 1)
 		(layers "F.Cu" "F.Mask")
 		(uuid "318f5179-4060-4199-929b-16af79e03cf3")
