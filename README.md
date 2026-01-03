@@ -22,7 +22,7 @@ The pinout is **mostly compatible** with popular BMI160 and LSM6DS3 modules foun
 
 ## Schematic
 
-![Schematic](http://cdn.kouno.xyz/fWsS0s20.png)
+![Schematic](http://cdn.kouno.xyz/7azwuG30.png)
 
 ## Ordering Information
 
