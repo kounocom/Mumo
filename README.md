@@ -1,6 +1,6 @@
-# Mumo - Compact ICM-45686+QMC6309 Module
+# Mumo - Compact ICM-45686+QMC6309H Module
 
-A compact 13×18mm IMU module featuring the TDK InvenSense ICM-45686 6-axis IMU with integrated 32.768kHz clock and QST QMC6309 3-axis magnetometer.
+A compact 13×18mm IMU module featuring the TDK InvenSense ICM-45686 6-axis IMU with integrated 32.768kHz clock and QST QMC6309H 3-axis magnetometer.
 
 ![PCB Image](http://cdn.kouno.xyz/sppRNCOt.png)
 
@@ -8,7 +8,7 @@ A compact 13×18mm IMU module featuring the TDK InvenSense ICM-45686 6-axis IMU 
 
 - **Compact Design**: 13×18mm form factor
 - **High-Performance IMU**: TDK InvenSense ICM-45686 6-axis IMU with integrated 32.768kHz clock for precise output timesteps
-- **3-Axis Magnetometer**: QST QMC6309 for 9-DOF sensing
+- **3-Axis Magnetometer**: QST QMC6309H for 9-DOF sensing
 - **Connectivity**: Castellated holes for flat mounting on compatible carrier PCBs
 - **Power Optimization**: Solder bridges to disconnect I2C pull-ups for improved power efficiency when using SPI
 - **Easily Configurable I2C Address**: Solder bridge for SD0 pin to change I2C address from `0x69` to `0x68`
